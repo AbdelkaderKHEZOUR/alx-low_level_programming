@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * * my first c programming file
+ * * main - Programming
+ * * Return: return value is 0
  * */
 
 int main(void)
