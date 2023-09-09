@@ -21,6 +21,6 @@ int main(void)
 	++digit;
 	}
 	putchar('\n');
-i
+
 	return (0);
 }
