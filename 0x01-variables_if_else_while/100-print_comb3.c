@@ -1,11 +1,12 @@
 #include<stdio.h>
 
 /**
- *  * main: program
+ *  * main - Entry point
  *   *
- *    * Description: task optioal1
- *     *
- *      * Return: 0
+ *    * Description: print all possible different
+ *     *           combinations of two digits.
+ *      *
+ *       * Return: 0
  */
 
 int main(void)
