@@ -1,13 +1,19 @@
-#include <stdio.h>
+#include <main.h>
 /**
  *  * main - Entry point
  *   *
- *    * Description: Prints _putchar, followed by a new line
+ *    * Description: Prints _putchar
  *     *
  *      * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char me[] = "_putchar\n";
+	int i;
+
+	for (i = 0; me[i] != '\0'; i++)
+	{
+		_putchar(me[i]);
+	}
 	return (0);
 }
