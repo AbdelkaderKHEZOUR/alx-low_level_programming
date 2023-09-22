@@ -16,6 +16,7 @@ char *_strncpy(char *dst, char *src, int n)
 	while (a != n)
 	{
 		dst[a] = src[b];
+
 		if (src[a] == '\0')
 		{
 			dst[b] = '\0';
