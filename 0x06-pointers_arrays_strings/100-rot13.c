@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * *rot13 - a program that encodes a string using rot13
