@@ -26,6 +26,6 @@ char *_strncpy(char *dst, char *src, int n)
 		b++;
 	}
 	while (b != n)
-		dest[b++] = '\0';
-	return (dest);
+		dst[b++] = '\0';
+	return (dst);
 }
