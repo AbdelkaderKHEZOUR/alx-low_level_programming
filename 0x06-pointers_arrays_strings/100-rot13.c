@@ -12,13 +12,13 @@ char *rot13(char *s)
 	char rot1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (a = 0; *(s + a); a++)
 	{
 		for (b = 0; b < 52; b++)
 		{
-			if (s[a] == data1[b])
+			if (rot1[b] == *(s + a))
 			{
-				s[a] = datarot[b];
+				*(s + a) = rot2[b];
 				break;
 			}
 		}
